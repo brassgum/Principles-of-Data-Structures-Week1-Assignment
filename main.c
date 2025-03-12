@@ -88,7 +88,7 @@ void add_at(list_t* const out_list, int value, size_t pos)
 
 	if (current == NULL)
 	{
-		if (pos == 0)
+		if (pos == 1)
 		{
 			append(out_list, value);
 			return;
